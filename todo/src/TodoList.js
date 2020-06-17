@@ -83,7 +83,7 @@ class TodoList extends Component {
         <Row>
           <form onSubmit={this.handleSubmit}>
             <TextInput
-              m={9}
+              s={12} m={9}
               label="adicione uma nova tarefa"
               data-length={50}
               value={this.state.newTodoText}

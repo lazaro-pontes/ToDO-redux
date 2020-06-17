@@ -9,8 +9,8 @@ function App() {
   return (
     <Provider store={store}>
 		<div className="container">
-			<div className="row"><h1 className="col xl6 m10 offset-xl3 offset-m2"> lista pra fazer! </h1></div>
-			<TodoList></TodoList>
+			<div className="row"><h1 className="col xl6 m10 s12 offset-xl3 offset-m1 center-align"> lista pra fazer! </h1></div>
+			<TodoList className="center-align"></TodoList>
 		</div>
     </Provider>
   );
