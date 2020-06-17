@@ -108,7 +108,6 @@ class TodoList extends Component {
               waves="light"
               onClick={this.addNewTodo}
             >
-              novo ToDO
               <Icon right>send</Icon>
             </Button>
           </form>
